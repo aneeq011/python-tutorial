@@ -2,5 +2,6 @@
 
 Welcome to the Python Course for Beginners. This repository contains materials and exercises to help you learn Python from scratch.
 
-## Course Outline
+## Tutorial Outline
 1. [Introduction to Python](section_1/introduction.md)
+2. [Data Types](section_2)

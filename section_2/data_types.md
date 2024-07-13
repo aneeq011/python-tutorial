@@ -23,6 +23,15 @@ Python supports several built-in data types that are used to store different typ
        radius = 2.5
        area = 3.14 * radius ** 2
        ```
+   - `bool`: Boolean values (`True`, `False`).
+     - **Usage**: Used for logical operations and conditional statements.
+     - **Why Use**: Essential for decision-making and controlling the flow of programs based on conditions.
+     - **Example**:
+       ```python
+       # Checking if a number is positive
+       number = -10
+       is_positive = number > 0
+       ```
 
 2. **Sequence Types:**
    - `str`: String, used for text data (e.g., `"Hello"`, `'Python'`).
