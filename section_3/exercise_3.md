@@ -1,43 +1,20 @@
-\### Exercise: Odd or Even Checker
+\### Exercise: Sum of Even Numbers
 
-Create a Python program that checks if a given number is odd or even.
+Create a Python program that calculates the sum of all even numbers between 1 and 100 (inclusive).
 
 \#### Instructions:
 
-1. Prompt the user to enter a number using `input()`.
+1. Use a \`for\` loop to iterate over numbers from 1 to 100.
+2. Use an \`if\` statement to check if a number is even.
+3. If the number is even, add it to a running total.
+4. After the loop, print the total sum of all even numbers.
 
-2. Convert the user input from string to an integer.
+\#### Tasks:
 
-3. Use an `if-else` statement to check if the number is odd or even:
-   - Print "Even number!" if the number is even (i.e., divisible by 2).
-   - Print "Odd number!" if the number is odd (i.e., not divisible by 2).
+1. Implement the program in a Python file named \`sum_even_numbers.py\`.
+2. Modify the program to calculate and print the sum of all odd numbers between 1 and 100.
+3. Modify the program to count and print the number of even numbers between 1 and 100.
+4. Modify the program to find and print the largest even number between 1 and 100.
+5. Modify the program to calculate and print the sum of all even numbers between 1 and 100 that are also multiples of 4.
 
-4. Implement error handling to ensure the program handles invalid inputs gracefully (e.g., non-numeric inputs).
-
-\#### Example:
-
-\```python
-\# Prompt the user to enter a number
-number_str = input("Enter a number: ")
-
-try:
-    \# Convert user input to an integer
-    number = int(number_str)
-    
-    \# Check if the number is odd or even
-    if number % 2 == 0:
-        print("Even number!")
-    else:
-        print("Odd number!")
-    
-except ValueError:
-    print("Invalid input. Please enter a valid number.")
-\```
-
-\#### Task:
-
-- Implement the above code in a Python file named `odd_even_checker.py`.
-- Test the program with various numbers (both odd and even) to verify correct functionality.
-- Ensure to handle cases where the user enters invalid inputs gracefully.
-
-This exercise focuses on using basic control flow (`if-else` statements) to create a simple interactive program, making it suitable for beginners to practice conditional statements in Python.
+This exercise helps beginners practice using \`for\` loops, \`if\` statements, and arithmetic operations, reinforcing their understanding of control flow and loops in Python.
