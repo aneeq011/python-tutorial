@@ -8,17 +8,17 @@ To define a function in Python, use the `def` keyword followed by the function n
 
 ### Syntax
 
-`python
+```python
 def function_name():
     # Code to execute
-`
+```
 
 ### Example
 
-`python
+```python
 def greet():
     print("Hello, World!")
-`
+```
 
 ### Explanation
 
@@ -30,17 +30,17 @@ Functions can accept inputs called parameters. When you call a function, you pro
 
 ### Syntax
 
-`python
+```python
 def function_name(parameter1, parameter2):
     # Code to execute
-`
+```
 
 ### Example
 
-`python
+```python
 def greet(name):
     print(f"Hello, {name}!")
-`
+```
 
 ### Explanation
 
@@ -52,17 +52,17 @@ Functions can return a value using the `return` keyword.
 
 ### Syntax
 
-`python
+```python
 def function_name():
     return value
-`
+```
 
 ### Example
 
-`python
+```python
 def add(a, b):
     return a + b
-`
+```
 
 ### Explanation
 
@@ -74,14 +74,14 @@ Scope refers to the visibility of variables. Variables defined inside a function
 
 ### Example
 
-`python
+```python
 def my_function():
     local_variable = 10
     print(local_variable)
 
 my_function()
 # print(local_variable)  # This will cause an error
-`
+```
 
 ### Explanation
 
@@ -93,16 +93,16 @@ Lambda functions are small anonymous functions defined using the `lambda` keywor
 
 ### Syntax
 
-`python
+```python
 lambda arguments: expression
-`
+```
 
 ### Example
 
-`python
+```python
 add = lambda x, y: x + y
 print(add(2, 3))
-`
+```
 
 ### Explanation
 
