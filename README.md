@@ -4,4 +4,4 @@ Welcome to the Python Course for Beginners. This repository contains materials a
 
 ## Tutorial Outline
 1. [Introduction to Python](section_1/introduction.md)
-2. [Data Types](section_2)
+2. [Data Types & Structures](section_2)
