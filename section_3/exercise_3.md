@@ -16,5 +16,3 @@ Create a Python program that calculates the sum of all even numbers between 1 an
 3. Modify the program to count and print the number of even numbers between 1 and 100.
 4. Modify the program to find and print the largest even number between 1 and 100.
 5. Modify the program to calculate and print the sum of all even numbers between 1 and 100 that are also multiples of 4.
-
-This exercise helps beginners practice using \`for\` loops, \`if\` statements, and arithmetic operations, reinforcing their understanding of control flow and loops in Python.
